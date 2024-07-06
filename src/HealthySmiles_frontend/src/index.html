@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>HealthySmiles</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+  </head>
+  <script>
+    function addPatient() {
+      const cardPatient = document.getElementById("patient-card");
+      const intro = document.getElementById("intro")
+      if (cardPatient.style.display == "none") {
+        cardPatient.style.display = "block";
+        intro.style.display = "none";
+      } else {
+        cardPatient.style.display = "none";
+        intro.style.display = "block";
+      }
+      
+    }
+  </script>
+  <body>
+    <main>
+      <div id="title">
+        <h1>HealthySmiles</h1>
+        <div id="overview">
+          Bienvenidos a HealthySmiles, un espacio para llevar el historial dental de todos nuestros pacientes de manera digital.
+        </div>
+      </div>
+      
+      <div id="intro">
+        <h1>¡Próximamente!</h1>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1200" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ft62xVxg1gbMmTfqvFxqvcw%2FHealthySmiles%3Fnode-id%3D1-35%26t%3DI8EX2Oor9yWWh27N-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%253A1" allowfullscreen></iframe>
+      </div>
+
+      <input id="showCard" type="button" onClick="addPatient()" value="Registrar Paciente"/>
+      <div class="card" id="patient-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2355/2355692.png" alt="Patient" style="width:20%">
+        <div class="container">
+          <h4><b>Registrar Paciente</b></h4> 
+          <form action="" class="form">
+
+            <div class="inputContainer">
+              <label for="nombre" class="label">Nombre</label>
+              <input id="nombre" aria-invalid="nombre" type="text" class="input" placeholder="Juan Pérez">
+            </div>
+      
+            <div class="inputContainer">
+              <label for="sexo" class="label">Sexo</label>
+              <input id="sexo" type="text" class="input" placeholder="Masculino">
+            </div>
+
+            <div class="inputContainer">
+              <label for="fecha_nacimiento" class="label">Fecha de nacimiento</label>
+              <input id="fecha_nacimiento" type="text" class="input" placeholder="DD/MM/YYYY">
+            </div>
+      
+            <input type="submit" class="submitn" value="Registrar"/>
+          </form>
+        </div>
+      </div>
+
+    </main>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "HealthySmiles_backend": {
+      "main": "src/HealthySmiles_backend/main.mo",
+      "type": "motoko"
+    },
+    "HealthySmiles_frontend": {
+      "dependencies": [
+        "HealthySmiles_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/HealthySmiles_frontend/src/index.html"
+      },
+      "source": [
+        "src/HealthySmiles_frontend/assets",
+        "dist/HealthySmiles_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
