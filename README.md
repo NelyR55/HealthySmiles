@@ -1,5 +1,5 @@
 # 🦷 HealthySmiles
-Bienvenido a tu nuevo proyecto HealthySmiles y a la comunidad de desarrollo del Internet Computer. Por defecto, al crear un nuevo proyecto se añaden este README y algunos archivos de plantilla a tu directorio de proyecto. Puedes editar estos archivos de plantilla para personalizar tu proyecto e incluir tu propio código para acelerar el ciclo de desarrollo.
+Bienvenido a tu nuevo proyecto Healthy Smiles y a la comunidad de desarrollo del Internet Computer. Es un espacio para los pacientes donde podrán llevar el historial de salud dental a través de la creación de una identificación digital para cada uno de ellos. 
 
 # 📁 Estructura del Proyecto
 Para comenzar, es posible que desees explorar la estructura del directorio del proyecto y el archivo de configuración predeterminado. Trabajar con este proyecto en tu entorno de desarrollo no afectará ningún despliegue en producción o tokens de identidad.
