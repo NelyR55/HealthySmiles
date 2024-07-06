@@ -16,7 +16,7 @@ Para obtener más información antes de comenzar a trabajar con HealthySmiles, c
 Si deseas comenzar a trabajar en tu proyecto de inmediato, puedes probar los siguientes comandos:
 
 ```bash
-cd PetHealth/
+cd HealthySmiles/
 dfx help
 dfx canister --help
 ```
