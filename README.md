@@ -7,44 +7,43 @@ Para comenzar, es posible que desees explorar la estructura del directorio del p
 # 📚 Documentación Recomendada
 Para obtener más información antes de comenzar a trabajar con HealthySmiles, consulta la siguiente documentación disponible en línea:
 
-Quick Start
-SDK Developer Tools
-Motoko Programming Language Guide
-Motoko Language Quick Reference
-JavaScript API Reference
+- [Quick Start](https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins)
+- [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove)
+- [Motoko Programming Language Guide](https://internetcomputer.org/docs/current/developer-docs/build/cdks/motoko-dfinity/motoko/)
+- [Motoko Language Quick Reference](https://internetcomputer.org/docs/current/references/motoko-ref/)
+- [JavaScript API Reference](https://erxue-5aaaa-aaaab-qaagq-cai.raw.icp0.io)
 🚀 Comandos Iniciales
 Si deseas comenzar a trabajar en tu proyecto de inmediato, puedes probar los siguientes comandos:
 
-bash
-Copiar código
-cd HealthySmiles/
+```bash
+cd PetHealth/
 dfx help
 dfx canister --help
+```
 # 🛠️ Ejecutando el Proyecto Localmente
 Si deseas probar tu proyecto localmente, puedes usar los siguientes comandos:
-
-bash
-Copiar código
+```bash
 # Inicia la réplica, ejecutándose en segundo plano
 dfx start --background
 
 # Despliega tus canisters en la réplica y genera tu interfaz Candid
 dfx deploy
+```
+
 Una vez que el trabajo se complete, tu aplicación estará disponible en http://localhost:4943?canisterId={asset_canister_id}.
 
 # Si has realizado cambios en tu canister de backend, puedes generar una nueva interfaz Candid con:
 
-bash
-Copiar código
+```bash
 npm run generate
+```
 en cualquier momento. Esto se recomienda antes de comenzar el servidor de desarrollo del frontend, y se ejecutará automáticamente cada vez que ejecutes dfx deploy.
 
 # 🌐 Desarrollo del Frontend
 Si estás haciendo cambios en el frontend, puedes iniciar un servidor de desarrollo con:
-
-bash
-Copiar código
+```bash
 npm start
+```
 Lo que iniciará un servidor en http://localhost:8080, haciendo proxy de las solicitudes API a la réplica en el puerto 4943.
 
 # ⚠️ Nota sobre las Variables de Entorno del Frontend
