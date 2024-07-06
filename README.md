@@ -12,7 +12,7 @@ Para obtener más información antes de comenzar a trabajar con HealthySmiles, c
 - [Motoko Programming Language Guide](https://internetcomputer.org/docs/current/developer-docs/build/cdks/motoko-dfinity/motoko/)
 - [Motoko Language Quick Reference](https://internetcomputer.org/docs/current/references/motoko-ref/)
 - [JavaScript API Reference](https://erxue-5aaaa-aaaab-qaagq-cai.raw.icp0.io)
-🚀 Comandos Iniciales
+# 🚀 Comandos Iniciales
 Si deseas comenzar a trabajar en tu proyecto de inmediato, puedes probar los siguientes comandos:
 
 ```bash
